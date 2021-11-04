@@ -1,0 +1,12 @@
+What is inheritance
+inheritance is a funciton that makes classes super- and sub- classes.
+a super class also called parentclass, is a class that owns attributes and methods like any other class.
+the subclass also called the childclass, inheritances the attributes and the methods given to the parent class.
+makes the methods and attributes available for calls from main method, both from superclass and subclass.
+this also means if the superclass gets added an extra attribute or method, the subclass will also contain the attribute and method.
+Its easier to explain with example.
+If we have a superclass called car, the car has attributes like weight, topspeed, price, ect.
+we can then make a subclass called BMW, that inhertances the attributes from car class.
+we can then add extra attributes for the BMW class, like modelname, limitedEdition, ect.
+the BMWclass now contains all the attributes from parentclass and from its own class.
+we can make multiple subclasses inheriting from a parentclass.

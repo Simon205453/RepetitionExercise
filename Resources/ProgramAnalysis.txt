@@ -1,0 +1,10 @@
+I main metoden ser vi et for-loop, hvori der bliver deklæret en integer variabel med navnet "random"
+variablen bliver bestemt ud fra et metodekald.
+I metoden som vi ser nedenunder, bruges en random generator til at generere et tilfældigt tal.
+i return statementet, kan vi se at den returnerer et tal med inden for grænsen 10,
+dvs. at tallet der bliver genereret, er et tal mellem 0 og 10, fordi maks grænsen er bestemt hvor der står "bound"
+nu når vi har kigget metoden igennem, ved vi at den nye deklærerede varibel "random" i main metoden
+er et tal imellem 0 og 10.
+i for-looped bliver variablen deklæreret og printet lige efter.
+loopet kører dernæst forfra, og overskriver variablen "random" med et nyt genereret tal vha. samme metode.
+efter loopet har kørt 10 gange, som bestemt i loopet, vil der blive printet "Random integers generated".

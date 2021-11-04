@@ -1,0 +1,6 @@
+Keyworded static binder sig til klassen istedet for objeket.
+hvis man sætter en variabel til static, kan man bruge klassenavnet for at kalde den og dermed undgå brugen af en constructor.
+et objekt kan godt bruge static variabler, men hvis der er oprettet flere objekter der indeholder samme variable med static keyworded
+vil den statiske varible ikke være unik til hvert af objekterne da den somsagt lægger sig til klassen og dermed alle objekter
+oprettet fra klassen vil have samme værdi i den statiske variabel.
+dette betyder også at hvis et objekt ændrer en statisk variabel vil den også blive ændret i de andre objekter.
